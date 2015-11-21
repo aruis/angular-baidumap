@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='demo'>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+<baidumap bmap-city="北京" bmap-zoom="12" bmap-nav-ctrl bmap-type-ctrl bmap-scale-ctrl bmap-overview-ctrl></baidumap>
+</body>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=sYBAGN037WD6qLt44Twxtenq"></script>
+<script src="//cdn.bootcss.com/angular.js/1.4.7/angular.min.js"></script>
+<script src="../angular-baidumap.js"></script>
+<script src="app.js"></script>
+</html>

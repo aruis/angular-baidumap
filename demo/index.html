@@ -14,8 +14,9 @@
 
     </style>
 </head>
-<body>
-<baidu-map bmap-city="北京" bmap-zoom="12" bmap-nav-ctrl bmap-type-ctrl bmap-scale-ctrl bmap-overview-ctrl></baidu-map>
+<body ng-controller="mainCtrl">
+<baidu-map bmap-marker="point"
+           bmap-zoom="12" bmap-nav-ctrl bmap-type-ctrl bmap-scale-ctrl bmap-overview-ctrl></baidu-map>
 </body>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=sYBAGN037WD6qLt44Twxtenq"></script>
 <script src="//cdn.bootcss.com/angular.js/1.4.7/angular.min.js"></script>

@@ -2,7 +2,7 @@
  * Created by liurui on 15/11/21.
  */
 angular.module('angular-baidumap-aruis', [])
-    .directive('baidumap', function ($timeout) {
+    .directive('baiduMap', function ($timeout) {
         return {
             restrict: 'E',
             template: '<div style="width:100%;height:100%;"></div>',
